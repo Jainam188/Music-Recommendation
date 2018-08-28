@@ -34,7 +34,7 @@ user_data_with_artist_plays = user_data.merge(artist_plays, left_on='artist-name
 
 #print(artist_plays['total_artist_plays'].quantile(np.arange(.9, 1, .01)))
 
-popularity_threshold = 4000
+popularity_threshold = 40000
 user_data_popularity_artists = user_data_with_artist_plays.query('total_artist_plays >= @popularity_threshold')
 #user_data_popularity_artists.head()
 
