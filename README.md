@@ -9,6 +9,8 @@ scipy (https://www.scipy.org/)
 
 Pandas (https://pandas.pydata.org/)
 
+sklearn (https://scikit-learn.org/)
+
 #Dataset for Recommendations
 
 The Last.fm data are from the Music Technology Group at the Universitat Pompeu Fabra in Barcelona, Spain. The data were scraped by Òscar Celma using the Last.fm API, and they are available free of charge for non-commercial use. So, thank you Òscar!
